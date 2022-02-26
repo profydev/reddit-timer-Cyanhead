@@ -1,12 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router';
-import Header from './Header';
+import Header from './components/Header';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Header />} />
+        <Route path="/" element={<Header />}>
+          <Route path="/search" element="" />
+        </Route>
+        <Route path="*" element="" />
       </Routes>
     </Router>
   );
