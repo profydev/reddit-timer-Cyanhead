@@ -6,9 +6,9 @@ export const HeaderContainer = styled.div`
 `;
 
 export const HeaderWrap = styled.div`
-  width: 100%;
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
+  padding: 32px 80px;
 
   display: flex;
   justify-content: space-between;
@@ -36,5 +36,5 @@ export const HeaderItem = styled.li`
 
 export const HeaderLink = styled(Link)`
   text-decoration: none;
-  color: #000;
+  color: #636363;
 `;
