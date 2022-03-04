@@ -8,6 +8,7 @@ import {
   HeaderItem,
   HeaderLink,
 } from './HeaderElements';
+
 import logo from '../../assets/logo.svg';
 
 function Header() {
