@@ -13,45 +13,24 @@ import logo from '../../assets/logo.svg';
 
 function Header() {
   return (
-    <>
-      {/* <header>
-        <nav>
-          <a href="/">
-            <img src={logo} alt="" />
-          </a>
-          <ul>
-            <li>
-              <a href="search/javascript">Search</a>
-            </li>
-            <li>
-              <a href="#how-it-works">How it works</a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-          </ul>
-        </nav>
-      </header> */}
-
-      <HeaderContainer>
-        <HeaderWrap>
-          <HeaderLogo to="/">
-            <HeaderLogoImg src={logo} alt="" />
-          </HeaderLogo>
-          <HeaderMenu>
-            <HeaderItem>
-              <HeaderLink to="search/javascript">Search</HeaderLink>
-            </HeaderItem>
-            <HeaderItem>
-              <HeaderLink to="#how-it-works">How it works</HeaderLink>
-            </HeaderItem>
-            <HeaderItem>
-              <HeaderLink to="#about">About</HeaderLink>
-            </HeaderItem>
-          </HeaderMenu>
-        </HeaderWrap>
-      </HeaderContainer>
-    </>
+    <HeaderContainer>
+      <HeaderWrap>
+        <HeaderLogo to="/">
+          <HeaderLogoImg src={logo} alt="" />
+        </HeaderLogo>
+        <HeaderMenu>
+          <HeaderItem>
+            <HeaderLink to="search/javascript">Search</HeaderLink>
+          </HeaderItem>
+          <HeaderItem>
+            <HeaderLink to="#how-it-works">How it works</HeaderLink>
+          </HeaderItem>
+          <HeaderItem>
+            <HeaderLink to="#about">About</HeaderLink>
+          </HeaderItem>
+        </HeaderMenu>
+      </HeaderWrap>
+    </HeaderContainer>
   );
 }
 
