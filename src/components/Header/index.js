@@ -20,7 +20,7 @@ function Header() {
         </HeaderLogo>
         <HeaderMenu>
           <HeaderItem>
-            <HeaderLink to="search/javascript">Search</HeaderLink>
+            <HeaderLink to="/search/javascript">Search</HeaderLink>
           </HeaderItem>
           <HeaderItem>
             <HeaderLink to="#how-it-works">How it works</HeaderLink>
