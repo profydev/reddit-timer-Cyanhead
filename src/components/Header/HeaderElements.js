@@ -13,6 +13,8 @@ export const HeaderWrap = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  font-size: 1rem;
 `;
 
 export const HeaderLogo = styled(Link)``;
@@ -36,5 +38,6 @@ export const HeaderItem = styled.li`
 
 export const HeaderLink = styled(Link)`
   text-decoration: none;
-  color: #636363;
+  /* color: #636363; */
+  color: ${(props) => props.theme.fg2};
 `;
