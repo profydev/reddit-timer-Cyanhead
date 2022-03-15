@@ -22,7 +22,7 @@ describe('Header', () => {
     render(<App />);
 
     expect(
-      screen.getByRole('link', { name: links.navLink })
+      screen.getByRole('link', { name: links.navLink }),
     ).toBeInTheDocument();
   });
 });
